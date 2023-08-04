@@ -1,0 +1,18 @@
+{
+    "name": "Buffer",
+    "version": "1.0",
+    "description": "This is a simple Chrome extension which is used to store the things more than ctrl+c.",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      },
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
+  
