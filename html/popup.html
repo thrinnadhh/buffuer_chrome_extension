@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buffer Chrome Extension</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Include Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-UwIdwxLJwQFLYFq5wvWSRmuDvONXWnWQz2zmfc4eQ/uq4kXfW1n05LhTfpEWsKNByWb5yqXeqzmdI0q5IcfCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="input-container">
+    <input type="text" id="user-input" placeholder="Type your input here...">
+  </div>
+
+  <div class="sub-layouts">
+    <!-- Temporary Data Table -->
+    <div class="temporary-data">
+      <h2>Temporary Data</h2>
+      <table>
+        <tr>
+          <th>Data</th>
+          <th>Actions</th>
+        </tr>
+        <tr>
+          <td>Temporary Entry 1</td>
+          <td>
+            <!-- Copy Icon -->
+            <span class="action-icon copy-icon" title="Copy"><i class="fas fa-copy"></i></span>
+            <!-- Delete Icon -->
+            <span class="action-icon delete-icon" title="Delete"><i class="fas fa-trash-alt"></i></span>
+            <!-- Timer Icon -->
+            <span class="action-icon timer-icon" title="Set Timer"><i class="fas fa-clock"></i></span>
+          </td>
+        </tr>
+        <tr>
+          <td>Temporary Entry 2</td>
+          <td>
+            <!-- Copy Icon -->
+            <span class="action-icon copy-icon" title="Copy"><i class="fas fa-copy"></i></span>
+            <!-- Delete Icon -->
+            <span class="action-icon delete-icon" title="Delete"><i class="fas fa-trash-alt"></i></span>
+            <!-- Timer Icon -->
+            <span class="action-icon timer-icon" title="Set Timer"><i class="fas fa-clock"></i></span>
+          </td>
+        </tr>
+        <!-- Add more temporary data table rows here -->
+      </table>
+    </div>
+
+    <!-- Permanent Data Table -->
+    <div class="permanent-data">
+      <h2>Permanent Data</h2>
+      <table>
+        <tr>
+          <th>Data</th>
+          <th>Actions</th>
+        </tr>
+        <tr>
+          <td>Permanent Entry 1</td>
+          <td>
+            <!-- Copy Icon -->
+            <span class="action-icon copy-icon" title="Copy"><i class="fas fa-copy"></i></span>
+            <!-- Delete Icon -->
+            <span class="action-icon delete-icon" title="Delete"><i class="fas fa-trash-alt"></i></span>
+            <!-- Timer Icon -->
+            <span class="action-icon timer-icon" title="Set Timer"><i class="fas fa-clock"></i></span>
+            <!-- Calendar Icon -->
+            <span class="action-icon calendar-icon" title="View with Calendar"><i class="far fa-calendar-alt"></i></span>
+          </td>
+        </tr>
+        <tr>
+          <td>Permanent Entry 2</td>
+          <td>
+            <!-- Copy Icon -->
+            <span class="action-icon copy-icon" title="Copy"><i class="fas fa-copy"></i></span>
+            <!-- Delete Icon -->
+            <span class="action-icon delete-icon" title="Delete"><i class="fas fa-trash-alt"></i></span>
+            <!-- Timer Icon -->
+            <span class="action-icon timer-icon" title="Set Timer"><i class="fas fa-clock"></i></span>
+            <!-- Calendar Icon -->
+            <span class="action-icon calendar-icon" title="View with Calendar"><i class="far fa-calendar-alt"></i></span>
+          </td>
+        </tr>
+        <!-- Add more permanent data table rows here -->
+      </table>
+    </div>
+  </div>
+</body>
+</html>
